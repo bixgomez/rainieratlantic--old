@@ -27,10 +27,11 @@
   		<?php include 'title.php'; ?>
   	</div>
 
-    <?php /* ?>
   	<div id="element--nav" class="element--primary">
-  		<?php include 'nav.php'; ?>
+  		<?php include 'intro.php'; ?>
   	</div>
+
+    <?php /* ?>
   	<div id="element--info" class="element--primary">
   		<?php include 'info.php'; ?>
   	</div>
