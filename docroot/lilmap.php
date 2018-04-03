@@ -1,7 +1,7 @@
 <!--- This is the map on the right --->
 <?php
 	if (!isset($lilmapchoice)) {
-		$lilmapchoice = '1928';
+		$lilmapchoice = '1950';
 	}
 ?>
 

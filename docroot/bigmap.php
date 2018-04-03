@@ -36,9 +36,9 @@
 
 <!-- The FOUR COORDINATES -->
 <img class="directional" id="north" src="i/n.gif" width=24 height=25 border=0 alt="">
-<img class="directional" id="south" src="i/S.gif" width=24 height=25 border=0 alt="">
-<img class="directional" id="east" src="i/E.gif" width=24 height=25 border=0 alt="">
-<img class="directional" id="west" src="i/W.gif" width=24 height=25 border=0 alt="">
+<img class="directional" id="south" src="i/s.gif" width=24 height=25 border=0 alt="">
+<img class="directional" id="east" src="i/e.gif" width=24 height=25 border=0 alt="">
+<img class="directional" id="west" src="i/w.gif" width=24 height=25 border=0 alt="">
 
 <!-- The RED BALL -->
 <div id="redball" style="position:absolute; width:9px; height:9px; z-index:5; top:1000; left:1000"><img src="i/redball.gif" width=9 height=9 border=0 alt=""></div>
