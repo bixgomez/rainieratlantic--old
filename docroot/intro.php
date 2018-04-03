@@ -13,7 +13,6 @@
   In recent weeks I have begun rewriting it, dispensing with the
   iFrames, updating the javaScript to modern standards, and
   incorporating some jQuery.
-  page app.
 </p>
 
 <p>
