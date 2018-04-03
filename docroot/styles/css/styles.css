@@ -1,0 +1,202 @@
+body {
+  background-color: #666;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  width: 850px;
+  height: 640px;
+  overflow: hidden;
+}
+
+#app .inner {
+  position: relative;
+}
+
+.element--primary {
+  position: absolute;
+  overflow: hidden;
+}
+
+#element--bigmap {
+  width: 310px;
+  height: 346px;
+  top: 0;
+  left: 0;
+}
+
+#element--lilmap {
+  width: 315px;
+  height: 346px;
+  top: 0;
+  left: 305px;
+}
+
+#element--guidemap {
+  width: 620px;
+  height: 246px;
+  top: 346px;
+  left: 0px;
+}
+
+#element--title {
+  width: 230px;
+  height: 75px;
+  top: 0px;
+  left: 620px;
+}
+
+#element--nav {
+  width: 230px;
+  height: 517px;
+  top: 75px;
+  left: 620px;
+}
+
+#element--info {
+  width: 850px;
+  height: 48px;
+  top: 592px;
+  left: 0px;
+  overflow-y: scroll;
+}
+
+.map-window {
+  position: absolute;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.map-window--bigmap,
+.map-window--lilmap {
+  left: 10px;
+  top: 10px;
+  width: 288px;
+  height: 288px;
+}
+
+.map-window--lilmap {
+  left: 14px;
+}
+
+.directional {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  z-index: 100;
+  opacity: .6;
+}
+
+.directional:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.directional#north {
+  top: 5px;
+  left: 142px;
+}
+
+.directional#south {
+  top: 280px;
+  left: 142px;
+}
+
+.directional#east {
+  top: 142px;
+  left: 280px;
+}
+
+.directional#west {
+  top: 142px;
+  left: 5px;
+}
+
+#bigmap,
+#lilmap {
+  position: absolute;
+  z-index: 1;
+}
+
+form select {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  background: rgba(0, 0, 0, 0.2);
+  color: #FFFFFF;
+}
+
+.map-window--guidemap {
+  left: 10px;
+  top: 10px;
+}
+
+#guidemap {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 5;
+  cursor: crosshair;
+}
+
+#redbox {
+  padding: 0;
+  margin: 0;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+          box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+#redbox .inner {
+  height: 100%;
+  border: 1px solid white;
+  -webkit-box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+#guidemap-clicker {
+  position: absolute;
+  z-index: 15;
+}
+
+.map-chooser {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  z-index: 500;
+  top: 310px;
+  left: 10px;
+}
+
+#title {
+  position: absolute;
+  width: 226px;
+  height: 55px;
+  z-index: 1;
+  top: 6px;
+  left: 0;
+}
+
+#title img {
+  display: block;
+  width: 226px;
+  height: 55px;
+  border: 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */

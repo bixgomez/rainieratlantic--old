@@ -1,0 +1,48 @@
+.map-window--bigmap,
+.map-window--lilmap {
+  left: 10px;
+  top: 10px;
+  width: 288px;
+  height: 288px;
+}
+.map-window--lilmap {
+  left: 14px;
+}
+
+.directional {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  z-index: 100;
+  opacity: .6;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  &#north {
+    top: 5px;
+    left: 142px;
+  }
+
+  &#south {
+    top: 280px;
+    left: 142px;
+  }
+
+  &#east {
+    top: 142px;
+    left: 280px;
+  }
+
+  &#west {
+    top: 142px;
+    left: 5px;
+  }
+}
+
+#bigmap,
+#lilmap {
+  position: absolute;
+  z-index: 1;
+}

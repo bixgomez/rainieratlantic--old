@@ -1,0 +1,83 @@
+body {
+	background-color: #666;
+	// background-image: url('../../images/guide_bg_3.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0
+}
+
+#app {
+	width: 850px;
+	height: 640px;
+	overflow: hidden;
+	// background-color: mix(#666, transparent, 95%);
+	.inner {
+		position: relative;
+	}
+}
+
+.element--primary {
+	position: absolute;
+	// background-color: mix(white, transparent, 10%) !important;
+	overflow: hidden;
+	* {
+		// display: none;
+	}
+}
+
+#element--bigmap {
+	width: 310px;
+  height: 346px;
+  top: 0;
+  left: 0;
+	// background: orange;
+}
+
+#element--lilmap {
+	width: 315px;
+  height: 346px;
+	top: 0;
+	left: 305px;
+	// background: pink;
+}
+
+#element--guidemap {
+  width: 620px;
+  height: 246px;
+  top: 346px;
+  left: 0px;
+	// background: green;
+}
+
+#element--maps {
+	
+}
+
+#element--title {
+	width: 230px;
+  height: 75px;
+  top: 0px;
+  left: 620px;
+	// background: beige;
+}
+
+#element--nav {
+  width: 230px;
+  height: 517px;
+  top: 75px;
+  left: 620px;
+	// background: skyblue;
+}
+
+#element--info {
+  width: 850px;
+  height: 48px;
+  top: 592px;
+  left: 0px;
+	overflow-y: scroll;
+	// background: maroon;
+}

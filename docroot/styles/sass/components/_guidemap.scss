@@ -1,0 +1,32 @@
+.map-window--guidemap {
+  left: 10px;
+  top: 10px;
+}
+
+#guidemap {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 5;
+  cursor: crosshair;
+}
+
+#redbox {
+  padding: 0;
+  margin: 0;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  box-shadow: 0 0 15px mix(white, transparent, 70%);
+  .inner {
+    height: 100%;
+    border: 1px solid white;
+    box-shadow: inset 0 0 25px mix(black, transparent, 30%);
+  }
+}
+
+#guidemap-clicker {
+  position: absolute;
+  z-index: 15;
+}
