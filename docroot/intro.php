@@ -22,7 +22,7 @@
 </p>
 
 <p>
-  The original version featured the ability to explore property
+  My original version featured the ability to explore property
   photographs taken in the 30s and 50s; I will be restoring this
   functionality in the weeks to come.
 </p>
