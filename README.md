@@ -1,7 +1,12 @@
 # Rainier Atlantic Neighborhood
 
-## Originally developed to support my graduate thesis in Urban Planning at the University of Washington, "Garlic Gulch: Interpreting the History of Seattle’s Rainier/Atlantic Neighborhood, 1903-2003"
+## History
+Originally developed to support my graduate thesis in Urban Planning at the University of Washington, "Garlic Gulch: Interpreting the History of Seattle’s Rainier/Atlantic Neighborhood, 1903-2003"
 
+## Demo 
+Please visit the current version at https://deansluyter.com/rainieratlantic/
+
+## Thesis
 ### Excerpt from final thesis, published in August, 2003:
 
 Comparing historical maps is essential in examining the change over time of a neighborhood or region.  In tracing the history of the Rainier/Atlantic district from its genesis as a chiefly Italian enclave to its condition today as a freeway overpass requires detailed examination of plat maps drawn and published by throughout the 20th century by the Kroll and Baist companies of Seattle.  It is customary in contemporary historical analysis to generate “figure/ground” diagrams from these maps, tracing streets and properties in scale from different points in time.  This convention yields a “shadow” view of the study area over time, useful in describing how it grew (or diminished) in density, or changed in street and block layout, over time.  But figure/ground maps cannot, by definition, preserve the often intricate, sometimes beautiful, qualities of the maps themselves; the mapmakers’ art is lost in the interest of clarity.  With the advent of digital media, however, the two can coexist as a cohesive, interactive computer application, combining the visual appeal of original plat maps, vivid historical (and aerial) photographs, and audio clips in a database-driven, web-based application to tell the tale of change in Seattle’s former Garlic Gulch.
